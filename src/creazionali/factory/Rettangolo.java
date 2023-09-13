@@ -1,4 +1,4 @@
-package pattern.factory;
+package creazionali.factory;
 
 public class Rettangolo implements Figura {
 

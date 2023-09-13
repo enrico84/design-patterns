@@ -1,12 +1,9 @@
-package pattern.factory;
+package creazionali.factory;
 
-public class FiguraFactory {
+public class FiguraFactory implements AbstractFactory<Figura>{
     
-    private FiguraFactory() {
-	
-    }
-
-   public static Figura creaFigura(TipoFigura figura) {
+   @Override 
+   public Figura creaFigura(TipoFigura figura) {
        
        switch(figura) {
        case CERCHIO:
